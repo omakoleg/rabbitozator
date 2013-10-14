@@ -1,0 +1,4 @@
+rabbitozator
+============
+
+Simple chrome extension
