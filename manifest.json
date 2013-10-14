@@ -1,0 +1,19 @@
+{
+  "name": "Rabbitozator",
+  "manifest_version": 2,
+  "version": "0.1.1",
+  "description": "Must rabbit all",
+  "web_accessible_resources":[
+	  "jquery-1.10.2.min.js",
+	  "base.css",
+	  "images/image.jpg"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*", "https://www.facebook.com/*"],
+      "css": ["base.css"],
+      "js": ["jquery-1.10.2.min.js", "contentscript.js"]
+    }
+  ]
+}
+
